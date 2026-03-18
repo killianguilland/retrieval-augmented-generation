@@ -1,6 +1,6 @@
-# Système RAG - TP ESIEE Paris
+# Retrieval Augmented Generation
 
-Ce projet implémente un système RAG (Retrieval Augmented Generation) tel que demandé par le TP.
+Ce projet open-source propose une implémentation complète d'un système de Recherche Augmentée par la Génération (RAG - *Retrieval-Augmented Generation*).
 
 Au lieu de demander à un LLM de répondre uniquement à partir de ce qu'il "sait", on lui fournit des extraits pertinents d'un corpus de documents. Le LLM génère alors sa réponse en s'appuyant sur ces extraits.
 

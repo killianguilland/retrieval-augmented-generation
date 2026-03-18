@@ -7,12 +7,12 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from src.rag import rag_pipeline
 
-st.set_page_config(page_title="Système RAG - ESIEE Paris", page_icon="🤖")
+st.set_page_config(page_title="KikiGPT", page_icon="🤖")
 
-st.title("Système RAG 🤖📚")
+st.title("KikiGPT")
 
 st.markdown("""
-Bienvenue dans le TP de test RAG.
+Bienvenue dans l'interface de test RAG.
 Posez une question sur le corpus ingéré (ex: *Que représente la flamme de Charmander / Salamèche ?*)
 """)
 

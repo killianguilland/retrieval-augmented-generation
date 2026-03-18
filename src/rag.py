@@ -65,8 +65,8 @@ Tu es un expert dans ce domaine. Réponds de manière concise, précise, et util
 
     try:
         response = client.chat.completions.create(
-            # Using a free model as suggested by the TP subject
-            model="mistralai/mistral-7b-instruct:free",
+            # Utilisation de openrouter/free qui route automatiquement vers un modèle gratuit disponible
+            model="openrouter/free",
             messages=[
                 {"role": "user", "content": prompt}
             ]
